@@ -28,13 +28,13 @@ int main(){
     // --- 3. CADASTRO DOS TERRITÓRIOS ---
     for (i = 0; i < 5; i++) {
         printf("\n----Territorios %d -------\n", i + 1);
-
+        // leiteura de nome
         printf("Digite o nome: \n");
         scanf("%s",territorios[i].nome);
         // Leitura da COR
         printf("Digite a cor do exército: \n");
         scanf("%s", territorios[i].cor);
-        
+        // leitura de territorio
         printf("Digite a quantidade de tropas: \n");
         scanf("%d", &territorios[i].tropas);
 
